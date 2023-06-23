@@ -1,0 +1,217 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#nav-bar{
+    position: sticky;
+    top:0px;
+}
+
+.nav-link{
+    font-weight:bold;
+    color:black;
+    font-family: 'Noto Sans', sans-serif;
+    font-size:15px;
+}
+
+
+.nav-item{
+    padding:0px 7px 0px 7px;
+    
+}
+
+#join-btn{
+    font-size:10px; 
+    background-color:green; 
+    color:white; 
+    padding:5px 10px;
+}
+
+#navbar-toggler-icon{
+    font-size:15px;
+    
+}
+
+/* Navbar CSS End */
+
+/* About Us CSS */
+
+
+.content {
+   
+    /* padding-top:130px; */
+    /* margin-top:-130px; */
+   
+}
+
+#carousel-div1{
+    background-color:rgb(28, 196, 252);
+    display:grid;
+    place-content: center; 
+}
+
+#carousel-header1{
+    font-size:60px;
+    color:white;
+}
+
+#carousel-para1{
+    font-size:20px; 
+}
+
+#carousel-div2{
+    background-color:orange;
+    display:grid;
+    place-content: center;
+    padding-top:58px;  
+}
+
+
+
+#carousel-header2{
+    font-size:60px;
+    color:rgb(0, 0, 0);
+}
+
+#carousel-para2{
+    font-size:20px;
+    text-align: justify;  
+}
+
+/* About us CSS Ends */
+/* Aspect and Field CSS Start */
+
+#aspect-feild-div{
+    height:700px;
+}
+
+#text{
+    text-align: justify;
+    font-size:15px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#about-us-header{
+    background-color: #3A56A1;
+    color:white;
+    border:3px solid black;
+    border-radius:6px;
+    padding:8px 10px;
+    font-size:25px;
+}
+
+#about-us-subheading{
+    font-size:20px;
+}
+
+.block{
+    background-image: linear-gradient(to left,transparent,transparent 50%,#3A56A1 50%,#3A56A1);
+    background-position: 100% 0;
+    background-size: 200% 100%;
+    transition: all .25s ease-in;
+}
+.block:hover{
+    background-position: 0 0;
+    color:#fff;
+}
+
+/* About Us CSS Ends */
+/* Cards CSS Starts */
+
+
+.card-div{
+    background-color:#3A56A1;
+    height:280px;
+}
+
+.card-row{
+    background-color:#3A56A1;
+}
+
+
+.card-text {
+    text-align: justify;
+    font-size:13px;
+}
+
+.card-title-font{
+    font-weight: bold;
+    font-size:17px;
+}
+
+.card-div-height{
+    height:240px;
+}
+
+/* Cards CSS Ends */
+/* Industry CSS Start */
+
+.text-color{
+    color:#3A56A1;
+    font-weight: bold;
+}
+
+#card-body-text{
+    background-color: #f2f2f2;
+    font-size:17px;
+    font-weight:bold;
+}
+
+
+
+.card-img-top {
+    opacity: 1;
+    transition: opacity 0.2s ease;
+  }
+  
+  .card:hover .card-img-top {
+    opacity: 0.6;
+  }
+
+  /* Industry CSS Ends */
+  /* Contact-Us CSS Starts */
+
+  .contact-us{
+    background-color:#3A56A1;
+  }
+
+  /* Contact-Us CSS Ends */
+  /* Footer CSS Starts */
+
+  #Footer-div-img{
+    height:220px;
+    background-color:rgb(255, 255, 255);
+  
+  }
+
+  .footer-logo{
+    position: relative;
+    top:40px;
+    left:20px;
+  }
+  #Footer-div{
+    height:220px;
+    background-color:rgb(255, 255, 255); 
+  }
+
+  .text-dec{
+    text-decoration-line: underline;
+    text-underline-offset:6px;
+    text-decoration-color: orange;
+    text-decoration-thickness: 3px;
+    margin-bottom: 15px;
+
+  }
+.footer-text{
+    text-align:center;
+    font-size:14px;
+    color:#d2d2d2;
+}
+
+
+ 
+  
+  
+
